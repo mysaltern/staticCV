@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="container my-4">
+    <div   class="container my-4">
       <section>
         <!--Grid row-->
         <div class="row my-5 mx-4">
