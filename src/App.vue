@@ -1,12 +1,13 @@
 <template>
   <div id="app">
     <app-header></app-header>
- 
 
     <!--/header-->
     <transition enter-active-class="animated bounceInUp">
-      <router-view > </router-view>
+      <router-view> </router-view>
     </transition>
+
+    <app-footer :data1="data1"  />
 
     <!--/Footer-->
   </div>
@@ -14,11 +15,20 @@
 
 <script>
 import AppHeader from "./Pages/Shared/Header";
-
+import AppFooter from "./Pages/Shared/Footer";
 export default {
+  name: "app",
+
   components: {
-    appHeader: AppHeader
+    appHeader: AppHeader,
+    AppFooter: AppFooter
   },
-  watch: {}
+  data() {
+    return {
+     
+        data1: "matt2"
+     
+    };
+  }
 };
 </script>

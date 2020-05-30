@@ -238,5 +238,12 @@ a:hover, a:focus, a:active {
  
 .diccounect
 {
-  background-color:#818181;
+  background-color:#c5c2c2;
+  padding: 10px;
+}
+
+.center
+{
+text-align: center;
+ 
 }
